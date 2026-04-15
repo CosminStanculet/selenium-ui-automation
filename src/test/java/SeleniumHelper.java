@@ -20,12 +20,4 @@ public class SeleniumHelper {
         driver.manage().window().maximize();
         driver.get(baseURL);
     }
-
-//    @BeforeClass
-//    public void openFirefox(){
-//        System.setProperty("webdriver.gecko.driver", "/Users/cosminstanculet/Documents/geckodriver");
-//        driver = new FirefoxDriver();
-//        driver.manage().window().maximize();
-//        driver.get(baseURL);
-//    }
 }
